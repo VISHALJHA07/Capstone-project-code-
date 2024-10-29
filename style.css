@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.balance h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.income-expense {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.income-expense div {
+    width: 48%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.money {
+    font-size: 1.5rem;
+}
+
+.plus {
+    color: green;
+}
+
+.minus {
+    color: red;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.list {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid;
+}
+
+.list li.plus {
+    border-color: green;
+}
+
+.list li.minus {
+    border-color: red;
+}
